@@ -151,7 +151,8 @@ Para agregar Figuras o tablas, utilice estos códigos
 % Introducción al Montaje
 \noindent 
 % ¿Por qué lo hizo?
-Con el objetivo de desarrollar la Tarea 1 del curso relativo al proyecto 
+Con el objetivo de desarrollar la Tarea 1 del curso TICS relativo al proyecto semestral de tecnologías de la información, se pretende mostrar en este informe los avances de la etapa de concepción de la idea, identificación del problema y como pretendemos abordarlo durante el semestre. El centro de este proyecto consiste en identificar una problemática u oportunidad de mejora dentro de una empresa, organización o emprendimiento real para aplicar las TICS y  que funcionen como facilitador o potenciador de estas organizaciones.\\
+La PYME que el equipo ayudará es "BLAHBLAK", esta organización es de la hermana de una integrante del equipo que ofrece distintos productos de pastelería y banquetería para diferentes tipos de clientes, por un lado ella ofrece pasteles y tortas varias, por otro lado pasteleria sin azucar (para personas con diabetes) y por otro lado servicio de banquetería para eventos tales como matrimonios, bautizos, etc. Entonces el plan consiste en armar una pagina web donde ella pueda por un lado ofrecer sus productos de pastelería y su servicio de banquetería, además de ayudarla a controlar sus finanzas.
 % Resumen de las secciones
 \medskip
 En la sección \textbf{II} se muestran los resultados y se discuten los resultados obtenidos.
@@ -162,20 +163,47 @@ En la sección \textbf{II} se muestran los resultados y se discuten los resultad
 %                                                                              %
 
 
-\section{Preguntas y Resultados}
+\section{Desarrollo}
 
-\noindent{\large \bf Problema 1}\\
+\noindent{\large \bf Planteamiento del problema}\\
  
+ Fernanda González estudiante de tercer año de Gastronomía Internacional se dedica hace un tiempo a ofrecer distintos tipos de productos/servicios gastronómicos para distintos tipos de clientes, para poder realizar la investigación de sus necesidades de forma correcta se concretó una reunión con ella para que nos contara como se desarrolla su negocio y en que aspectos nosotras/os la podríamos ayudar, a continuación se muestra la segmentación de mercado que Fernanda identifica:
  
+\begin{table}[h!]
+\noindent \begin{centering}
+\begin{tabular}{|c|c|}
+\hline 
+Cliente & Producto/Servicio & Problemáticas\\
+\hline 
+Personas generales & Tortas, Cupcakes, Tartas, Pasteles \\ 
+\hline
+Personas con diabétes &  Tortas, Cupcakes, Tartas, Pasteles [todo sin azucar]\\
+\hline
+Personales generales & Coctales para eventos \\
+\hline
+\end{tabular}
+\par\end{centering}
+\caption{Segmentación de mercado}
+\label{cuadro}
+\end{table}
+
+Cada segmento de clientes le presenta distintos desafíos a Fernanda, el desafío común para los tres segmentos de cliente es el medio de comunicación producto que todo lo ofrecido es personalizado, es decir, cada persona arma su pastel o banquete como le parezca mejor.\\
+El primer segmento el cliente es bastante amplio, cualquier persona que quiera encargar cierto producto de pastelería para alguna ocación en particular, el principal desafío que se enfrenta Fernanda es que al ser un pedido personalizado, las personas pueden pedir distintas combinaciones de productos, por ejemplo; si un cliente quiere una torta de cumpleaños se debe saber para cuantas personas es, si es de biscocho, panqueque, merengue, etc, el tipo relleno y si es que tiene fondan o no para la cubierta de la torta. Entonces para cada tipo de producto ofrecido varían distintos parámetros que debe definir el cliente por lo que cada vez que a ella le llega un pedido debe ocupar mucho de su tiempo hablando con el cliente y muchas veces estos no le responden las preguntas que deben responder o no entienden bien la información.\\
+
+El segundo segmento de cliente corresponde a personas con diabetes o interesados en poder disfrutar de cosas dulces pero sin azucar, le problema principal es muy parecido al del segmento uno pero las restricciones tienen que ver con que la variedad no es tan amplia, ya que no todos los pasteles se pueden cocinar sin azucar, por lo que la dificultad que se presenta es poder calcular la cantidad de carbohidratos por porción, es necesario dar esta información ya que a lasos diabeticas/os este es el dato que les interesa conocer, ahora para poder calcular este valor es necesario saber cuantas porciones tiene el pastel y de qué está hecho pero como los productos son personalizados este valor cambia para cada pedido.\\
+
+El tercer segmento de clientes corresponde a personas que tengan eventos y necesiten un servicio de banquetería (matrominios, bautizos, cumpleaños, etc), el principal complejidad de este segmento es que es muy variado lo que puede necesitar un cliente, por un lado tienes al cliente que quiere que lleves todo al evento; desde la comida hasta los insumos como platos, mesas, cubiertos, meseras/meseros, bar tender, etc. Por otro lado esta el cliente que quiere cierta cantidad de porciones de cierto tipo de coctel y nada más que eso.\\
+
+Por todo lo anterior observamos varias brechas donde podemos actuar, en primer lugar la idea sería crear una pagina donde las personas puedan armar sus pedidos con todas las especificaciones que estos deseen y que la pagina vaya mostrando como varían los precios según las especificaciones que las personas entreguen, en segundo lugar también tener un catalogo de productos estandar para llegar y comprar sin tener que decidir nada (para el segmento de clientes que no quiera decidir y busque algo ya pensado), en tercer para el segmento de clientes de productos sin azucar la pagina debe poder hacer el producto personalizado (parecido al primer segmento) agregándole la variante de la cantidad de carbohidratos por porción, para poder hacer esto es necesario que se ingresen la cantidad de materiales que se utilizarían para cocinar un producto y tener una base de datos con la cantidad de carbohidratos por porción de cada tipo de alimento utilizado para así poder calcular la cantidad de carbohidratos por porción, la particularidad es que esta cantidad va a variar segun los tipos de productos que se utilicen en la preparación y la idea es que se vaya mostrando en pantalla como van variando los carbohidratos por porción, en cuarto lugar una plataforma aparte que permita hacer el presupuesto de un evento completo con todas las variantes que se pueden ofrecer (con o sin insumos) y en último lugar una plataforma que le permita a Fernanda poder controlar sus finanzas, la idea de esta ultima utilidad tiene que ver con que ella pueda ingresar al sistema la cantidad de materiales que utilizó para un producto, a que precio los compró y cuanto tiempo de trabajo le costó hacer el producto, para luego poder hacer estadísticas con todos los datos almacenados, la idea de esta parte de la pagina es que no sea abierta al público y le sirva a Fernadad para poder ordenar sus utilidades, que ella pueda ver que productos le traen mas utilidades, cuales son los productos más vendidos, en que fechas y que tipo de eventos son lo que más le conviene.\\
 
 
+COMPAÑEROS! AQUI LAS TAREAS: Lean lo anterior pa que entiendan la idea general, si se dan cuenta hay como 4 partes de la pagina y se debe hacer "Buscar en el mercado 2 propuestas similares a las suyas y se˜nalar al menos 3 aspectos positivos
+y 3 negativos de cada una" Entonces cada uno tendrá que hacer esta pega para uno de los siguientes puntos
+1) segmento personas naturales que quieran comprar pasteles personalizados y estandar (se refiere a estandar ya que habra una seccion donde tu armes tu pastel o otra donde hayan pasteles ya publicados llegar y llevar, notar que es diferente a una pasteleria ya que todo esto es a pedido) + servicios de banqueterías (notar que podrían ser que solo pidan comida o que pidan el servicio completo con mesas, sillas, meseros, etc)
 
+2) pasteleria para diabeticos, centrarse en el tema de mostrar los carbohidratos por porcion, averiguar del uso de la tagatosa (endulzante sin carbohidratos) que es el producto que usa mi hermana para endulsar, averiguar tambien de como son los precios comparados con los precios de un pastel normal, ademas de comparar el precio de 1k de azucar con 1k de tagatosa
 
-
-
-
-
-
+3) servicio de finanzas para mi hermana, donde ella debe ingresar para cada producto que venda (sea de pasteleria, cocteleria, eventos, sin azucar) cuando gasto, en que cosas y cuanto tiempo le llevo hacerlo, averiguar de que tipo de datos estadisticos le podemos entregar que le vayan  a servir, averiguar sobre como llegar un registro de las fechas tambien para dar estadisticas mes a mes y ver que cosas que venden en que epocas del año, etc. 
 
 
 
